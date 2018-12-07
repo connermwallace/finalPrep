@@ -12,7 +12,7 @@ public class SplitPairs {
          if (i % 2 == 0) {
             results[i/2] = arr[i];
          } else {
-            results[arr.length / 2 + i] = arr[i];
+            results[arr.length / 2 + i/2] = arr[i];
          }
       }
       return results;
